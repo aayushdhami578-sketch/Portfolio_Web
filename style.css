@@ -23,18 +23,49 @@ div.nav{
 div.intro{
     text-align: center;
     height: 400px;
-    width: 400px;
+    width: 450px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     color: white;
     position: relative;
-    left: 300px;
-    top: 30px;
+    left: 250px;
+    top: -50px;
+}
+
+p.intro-text{
+    font-size: 50px;
+    padding: 20px;
+}
+
+p.intro-name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.intro-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
 }
 
 div.intro-image{
     position: absolute;
     top: 150px;
+    left: 700px;
+}
+
+div.aboutme-img{
+    position: relative;
+    left: 350px;
+}
+
+div.aboutme{
+    position: absolute;
+    height: 400px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 750px;
     left: 800px;
 }
 
