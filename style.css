@@ -18,3 +18,15 @@ div.nav{
     justify-content: center;
     padding: 40px 40px;
 }
+
+div.footer-content{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
+ 
+div.footer-content a{
+    color: white;
+    text-decoration: none;
+}
