@@ -11,7 +11,7 @@ header a:hover{
 }
 
 body{
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(36, 35, 35);
 }
 
 div.nav{
@@ -51,9 +51,73 @@ p.intro-title{
 
 div.intro-image{
     position: absolute;
-    top: 150px;
+    top: 180px;
     left: 700px;
 }
+
+div.my-resume{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+div.myresume h1{
+    font-size: 50px;
+    padding: 20px 20px;
+}
+
+div.present-education{
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-bottom: 20px;
+     height: 170px;
+    width: 600px;
+}
+
+div.foundation-year{
+    height: 170px;
+    width: 600px;
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+div.high-school{
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-bottom: 20px;
+     height: 170px;
+    width: 600px;
+}
+
+#education{
+    margin-left:30px;
+}
+
+div.experience-1{
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-bottom: 20px;
+     height: 170px;
+    width: 600px;
+}
+
+div.experience-2{
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-bottom: 20px;
+     height: 170px;
+    width: 600px;
+}
+
+#experience{
+    margin-left:30px;
+    position: absolute;
+    top: 683px;
+    left: 700px;
+}
+
 
 div.aboutme-img{
     position: relative;
@@ -65,7 +129,7 @@ div.aboutme{
     height: 400px;
     width: 450px;
     font-family: Arial, Helvetica, sans-serif;
-    top: 750px;
+    top: 1500px;
     left: 800px;
 }
 
