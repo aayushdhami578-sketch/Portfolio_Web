@@ -162,13 +162,40 @@ div.aboutme{
    font-family: Arial, Helvetica, sans-serif;
 }
 
+.contact-info0 h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.contact-info0{
+    font-size: 25px;
+    padding: 30px 30px;
+    height: 550px;
+    width: 800px;
+    background-color: rgb(66, 65, 65);
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6{
+    padding: 15px 15px;
+}
+
+.contact-info{
+    position: absolute;
+    top: 1700px;
+    left: 900px;
+}
+
 .contact-form input{
     width: 500px;
-    height: 30px;
+    height: 40px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(66, 65, 65);
 }
 
 .contact-form textarea{
@@ -176,7 +203,7 @@ div.aboutme{
     height: 100px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(66, 65, 65);
 }
 
 .contact-form button{
