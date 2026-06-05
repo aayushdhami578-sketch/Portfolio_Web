@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
 header a{
     color: white;
     font-size: 20px;
@@ -11,7 +32,7 @@ header a:hover{
 }
 
 body{
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(114, 114, 114);
 }
 
 div.nav{
@@ -28,8 +49,8 @@ div.intro{
     padding: 20px;
     color: white;
     position: relative;
-    left: 250px;
-    top: -50px;
+    left: 330px;
+    top: 30px;
 }
 
 p.intro-text{
@@ -51,8 +72,8 @@ p.intro-title{
 
 div.intro-image{
     position: absolute;
-    top: 180px;
-    left: 700px;
+    top: 120px;
+    left: 800px;
 }
 
 div.my-resume{
@@ -61,9 +82,10 @@ div.my-resume{
     color: white;
 }
 
-div.myresume h1{
-    font-size: 50px;
-    padding: 20px 20px;
+.my-resume-title{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 10px;
 }
 
 div.present-education{
@@ -93,6 +115,8 @@ div.high-school{
 
 #education{
     margin-left:30px;
+    position: relative;
+    left:7%;
 }
 
 div.experience-1{
@@ -114,8 +138,8 @@ div.experience-2{
 #experience{
     margin-left:30px;
     position: absolute;
-    top: 683px;
-    left: 700px;
+    top: 641px;
+    left: 52%;
 }
 
 
@@ -131,6 +155,38 @@ div.aboutme{
     font-family: Arial, Helvetica, sans-serif;
     top: 1500px;
     left: 800px;
+}
+
+#contact{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form input{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 35, 35);
+}
+
+.contact-form textarea{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 35, 35);
+}
+
+.contact-form button{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 div.footer-content{
