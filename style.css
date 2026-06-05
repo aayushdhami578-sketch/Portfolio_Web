@@ -131,7 +131,7 @@ div.experience-2{
     background-color: rgb(66, 65, 65);
     padding: 20px;
     margin-bottom: 20px;
-     height: 170px;
+    height: 170px;
     width: 600px;
 }
 
@@ -153,20 +153,54 @@ div.aboutme{
     height: 400px;
     width: 450px;
     font-family: Arial, Helvetica, sans-serif;
-    top: 1500px;
+    top: 1350px;
     left: 800px;
+    color: white;
 }
+
+
+.skill-box {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+.skill-box1 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #504f4f;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.skill-box1 a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
 
 #contact{
    color: white;
    font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .contact-info0 h1{
     font-size: 40px;
     text-align: center;
     padding: 20px 20px;
 }
+
 
 .contact-info0{
     font-size: 25px;
@@ -185,7 +219,7 @@ div.aboutme{
 
 .contact-info{
     position: absolute;
-    top: 1700px;
+    top: 1940px;
     left: 900px;
 }
 
