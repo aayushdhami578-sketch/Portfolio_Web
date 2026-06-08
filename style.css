@@ -19,6 +19,34 @@ img{
     max-width: 100%;
 }
 
+.nav header a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+
 header a{
     color: white;
     font-size: 20px;
@@ -144,7 +172,7 @@ div.experience-2{
 #experience{
     margin-left:30px;
     position: absolute;
-    top: 1920px;
+    top: 2025px;
     left: 52%;
 }
 
@@ -159,7 +187,7 @@ div.aboutme{
     height: 400px;
     width: 450px;
     font-family: Arial, Helvetica, sans-serif;
-    top: 2610px;
+    top: 2730px;
     left: 800px;
     color: white;
 }
@@ -225,7 +253,7 @@ div.aboutme{
 
 .contact-info{
     position: absolute;
-    top: 3200px;
+    top: 3320px;
     left: 920px;
 }
 
@@ -274,6 +302,17 @@ div.footer-content a{
     grid-template-columns: 2fr 1fr;
     gap: 20px;
     padding: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio-title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
 }
 
 .big-card {
@@ -300,7 +339,7 @@ div.footer-content a{
 
 
 .big-card img {
-    height: 520px;
+    height: 630px;
 }
 
 .portfolio-content {
@@ -310,11 +349,13 @@ div.footer-content a{
 .portfolio-content h3 {
     color: white;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portfolio-content p {
     color: #ffffff;
     line-height: 1.6;
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
