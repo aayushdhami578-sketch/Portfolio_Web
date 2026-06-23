@@ -1,4 +1,6 @@
-const sections = document.querySelectorAll("section");
+const sections = document.querySelectorAll(
+    "#home, #portfolio, #resume, #about, #contact"
+);
 
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -10,11 +12,8 @@ window.addEventListener("scroll", () => {
 
         const sectionTop = section.offsetTop;
 
-        const sectionHeight = section.clientHeight;
-
-        if (window.scrollY >= sectionTop - 200) {
-
-            current = section.getAttribute("id");
+        if (window.scrollY >= sectionTop - 250) {
+            current = section.id;
         }
 
     });
@@ -24,7 +23,6 @@ window.addEventListener("scroll", () => {
         link.classList.remove("active");
 
         if (link.getAttribute("href") === "#" + current) {
-
             link.classList.add("active");
         }
 

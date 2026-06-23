@@ -38,6 +38,15 @@ img{
     transition: 0.3s;
 }
 
+.nav-link.active {
+    color: #000000;
+}
+
+.nav-link.active::after {
+    width: 100%;
+    background-color: #000000;
+}
+
 .nav-link:hover::after {
     width: 100%;
 }
@@ -83,7 +92,7 @@ div.intro{
     padding: 20px;
     color: white;
     position: relative;
-    left: 330px;
+    left: 250px;
     top: 55px;
 }
 
@@ -107,7 +116,7 @@ p.intro-title{
 div.intro-image{
     position: absolute;
     top: 275px;
-    left: 800px;
+    left: 780px;
 }
 
 div.my-resume{
@@ -123,7 +132,7 @@ div.my-resume{
 }
 
 div.present-education{
-    background-color: rgb(66, 65, 65);
+    background-color: #1e1e1e;
     padding: 20px;
     margin-bottom: 20px;
      height: 170px;
@@ -133,14 +142,14 @@ div.present-education{
 div.foundation-year{
     height: 170px;
     width: 600px;
-    background-color: rgb(66, 65, 65);
+    background-color: #1e1e1e;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 div.high-school{
-    background-color: rgb(66, 65, 65);
+    background-color: #1e1e1e;
     padding: 20px;
     margin-bottom: 20px;
      height: 170px;
@@ -154,7 +163,7 @@ div.high-school{
 }
 
 div.experience-1{
-    background-color: rgb(66, 65, 65);
+    background-color: #1e1e1e;
     padding: 20px;
     margin-bottom: 20px;
      height: 170px;
@@ -162,7 +171,7 @@ div.experience-1{
 }
 
 div.experience-2{
-    background-color: rgb(66, 65, 65);
+    background-color: #1e1e1e;
     padding: 20px;
     margin-bottom: 20px;
     height: 170px;
@@ -172,7 +181,7 @@ div.experience-2{
 #experience{
     margin-left:30px;
     position: absolute;
-    top: 2025px;
+    top: 2100px;
     left: 52%;
 }
 
@@ -180,6 +189,7 @@ div.experience-2{
 div.aboutme-img{
     position: relative;
     left: 350px;
+    top: 60px;
 }
 
 div.aboutme{
@@ -187,7 +197,7 @@ div.aboutme{
     height: 400px;
     width: 450px;
     font-family: Arial, Helvetica, sans-serif;
-    top: 2730px;
+    top: 2830px;
     left: 800px;
     color: white;
 }
@@ -253,7 +263,7 @@ div.aboutme{
 
 .contact-info{
     position: absolute;
-    top: 3320px;
+    top: 3540px;
     left: 920px;
 }
 
@@ -297,6 +307,15 @@ div.footer-content a{
     text-decoration: none;
 }
 
+.port-source{
+  padding: 10px 10px;
+  background-color: rgb(66, 65, 65);
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
 .portfolio-items {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -323,7 +342,8 @@ div.footer-content a{
     background-color: #1e1e1e;
     border-radius: 12px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .portfolio-item:hover {
