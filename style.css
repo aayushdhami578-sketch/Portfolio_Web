@@ -387,3 +387,6 @@ div.footer-content a{
     }
 }
 
+div.intro-image{
+    border: 2px solid rgb(0, 0, 0);
+}
