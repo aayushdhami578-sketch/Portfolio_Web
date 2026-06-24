@@ -333,6 +333,15 @@ p.intro-title{
     font-size:20px;
 }
 
+.contact-info0 a{
+    color:white;
+    text-decoration:none;
+}
+
+.contact-info0 a:hover{
+    color:white;
+}
+
 .contact-info{
     flex:1;
     min-width:350px;
@@ -505,3 +514,73 @@ div.footer-content a{
     }
 }
 
+@media (max-width: 768px){
+
+    .home-container{
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .intro{
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-text{
+        font-size: 32px;
+    }
+
+    .intro-name{
+        font-size: 42px;
+    }
+
+    .intro-title{
+        font-size: 18px;
+    }
+
+    .intro-image img{
+        width: 280px;
+        transform: none;
+    }
+}
+
+@media (max-width: 768px){
+
+    .contact-info0{
+        min-width: unset;
+        min-height: auto;
+    }
+
+    .contact-info{
+        min-width: unset;
+    }
+}
+@media (max-width: 768px){
+
+    .big-card img{
+        height: 250px;
+    }
+
+    .portfolio-items{
+        width: 95%;
+        padding: 20px;
+    }
+}
+@media (max-width: 768px){
+
+    .nav{
+        padding: 20px;
+    }
+
+    .nav header{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .nav header a{
+        margin:8px;
+        font-size:16px;
+    }
+}
